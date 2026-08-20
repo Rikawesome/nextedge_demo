@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradLab" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F2942"/>
+      <stop offset="50%" stop-color="#18426B"/>
+      <stop offset="100%" stop-color="#0B1C2E"/>
+    </linearGradient>
+    <linearGradient id="overlayGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(15,41,66,0.1)"/>
+      <stop offset="100%" stop-color="rgba(15,41,66,0.85)"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bgGradLab)"/>
+
+  <!-- Microscope / Lab icon centered -->
+  <g transform="translate(360, 180)" stroke="#FFFFFF" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 100 h-20 a10 10 0 0 1 -10 -10 v-10 a10 10 0 0 1 10 -10 h30"/>
+    <path d="M40 70 v30"/>
+    <path d="M25 35 l25 -25 l15 15 l-25 25 z"/>
+    <line x1="15" y1="45" x2="40" y2="70"/>
+    <circle cx="55" cy="15" r="8" fill="#E05A2B" stroke="none"/>
+    <rect x="10" y="100" width="60" height="12" rx="4" fill="rgba(255,255,255,0.2)"/>
+  </g>
+
+  <!-- Decorative technical lines -->
+  <circle cx="400" cy="240" r="120" fill="none" stroke="rgba(224,90,43,0.2)" stroke-width="2" stroke-dasharray="10 6"/>
+
+  <text x="400" y="360" font-family="'Outfit', sans-serif" font-weight="700" font-size="22" fill="#FFFFFF" text-anchor="middle" letter-spacing="3">LABORATORY TESTING</text>
+
+  <rect width="800" height="600" fill="url(#overlayGrad)"/>
+</svg>

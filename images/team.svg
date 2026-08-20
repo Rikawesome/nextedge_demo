@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradTeam" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E2338"/>
+      <stop offset="50%" stop-color="#1A3B5C"/>
+      <stop offset="100%" stop-color="#081624"/>
+    </linearGradient>
+    <linearGradient id="overlayGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(10,30,50,0.1)"/>
+      <stop offset="100%" stop-color="rgba(10,30,50,0.85)"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bgGradTeam)"/>
+
+  <!-- Team/Users Icon -->
+  <g transform="translate(330, 185)" stroke="#FFFFFF" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="70" cy="25" r="14"/>
+    <path d="M 40 75 A 30 30 0 0 1 100 75"/>
+    <circle cx="30" cy="32" r="11" stroke="#E05A2B"/>
+    <path d="M 5 75 A 25 25 0 0 1 55 75" stroke="#E05A2B"/>
+    <circle cx="110" cy="32" r="11"/>
+    <path d="M 85 75 A 25 25 0 0 1 135 75"/>
+  </g>
+
+  <circle cx="400" cy="240" r="110" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1.5"/>
+
+  <text x="400" y="360" font-family="'Outfit', sans-serif" font-weight="700" font-size="22" fill="#FFFFFF" text-anchor="middle" letter-spacing="3">STUDENT COMMUNITY</text>
+
+  <rect width="800" height="600" fill="url(#overlayGrad)"/>
+</svg>

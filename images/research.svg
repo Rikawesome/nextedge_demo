@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B2238"/>
+      <stop offset="40%" stop-color="#143454"/>
+      <stop offset="80%" stop-color="#1E4670"/>
+      <stop offset="100%" stop-color="#0D253A"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E05A2B"/>
+      <stop offset="100%" stop-color="#F27043"/>
+    </linearGradient>
+    <linearGradient id="overlayGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(11,34,56,0.1)"/>
+      <stop offset="100%" stop-color="rgba(11,34,56,0.85)"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle grid lines -->
+  <g stroke="rgba(255,255,255,0.05)" stroke-width="1">
+    <line x1="0" y1="150" x2="800" y2="150"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="450" x2="800" y2="450"/>
+    <line x1="200" y1="0" x2="200" y2="600"/>
+    <line x1="400" y1="0" x2="400" y2="600"/>
+    <line x1="600" y1="0" x2="600" y2="600"/>
+  </g>
+
+  <!-- Glowing scientific circles -->
+  <circle cx="400" cy="260" r="140" fill="none" stroke="rgba(224,90,43,0.25)" stroke-width="2" stroke-dasharray="8 6"/>
+  <circle cx="400" cy="260" r="90" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1.5"/>
+  <circle cx="400" cy="260" r="40" fill="rgba(224,90,43,0.15)"/>
+
+  <!-- Lab Flask Graphic -->
+  <g transform="translate(365, 205)" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M25 0 v25 L 5 65 A 8 8 0 0 0 12 75 h 46 A 8 8 0 0 0 65 65 L 45 25 v-25 z" />
+    <line x1="20" y1="0" x2="50" y2="0"/>
+    <path d="M 12 55 h 46" stroke="url(#accentGrad)" stroke-width="4"/>
+    <circle cx="28" cy="42" r="3" fill="#E05A2B" stroke="none"/>
+    <circle cx="42" cy="48" r="2" fill="#FFFFFF" stroke="none"/>
+    <circle cx="35" cy="35" r="2" fill="#E05A2B" stroke="none"/>
+  </g>
+
+  <!-- Science / Data waves -->
+  <path d="M 0 480 Q 200 420 400 480 T 800 450 L 800 600 L 0 600 Z" fill="rgba(224,90,43,0.15)"/>
+  <path d="M 0 510 Q 250 460 500 520 T 800 490 L 800 600 L 0 600 Z" fill="rgba(20,52,84,0.6)"/>
+
+  <text x="400" y="380" font-family="'Outfit', sans-serif" font-weight="700" font-size="22" fill="#FFFFFF" text-anchor="middle" letter-spacing="3">FOOD SCIENCE RESEARCH</text>
+  
+  <rect width="800" height="600" fill="url(#overlayGrad)"/>
+</svg>
